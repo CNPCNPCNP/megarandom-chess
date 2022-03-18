@@ -48,5 +48,54 @@ table {
 }
 
 body {
-    background-color: #C0C0C0;
+  background-color: lightgray;
+  font-family: 'Hubbali', sans-serif;
+}
+
+#top_bar {
+  display: flex;
+  align-items: center;
+}
+
+#new_game, #settings {
+  margin: 30px;
+}
+
+#new_game:hover, #settings:hover {
+  text-decoration:underline;
+}
+
+
+#main_content {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+#game_rules {
+  background: whitesmoke;
+}
+
+
+#bottom_container {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, 15%);
+  margin: 0 auto;
+}
+
+#bottom_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.footer_text {
+  margin: 15px;
+}
+
+a {
+  color: black;
 }
