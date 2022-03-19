@@ -1,5 +1,5 @@
 # Megarandom Chess
-Shows start position for a game of chess with randomized starting positions and randomized board configurations. Inspired by [Fischer random chess (Chess960)](https://en.wikipedia.org/wiki/Fischer_random_chess) and the Age of Empires 2 customer random map script, ['Megarandom'](https://ageofempires.fandom.com/wiki/MegaRandom). 
+Shows start position for a game of chess with randomized starting positions and randomized board configurations. Inspired by [Fischer random chess (Chess960)](https://en.wikipedia.org/wiki/Fischer_random_chess) and the Age of Empires 2 random map script, ['Megarandom'](https://ageofempires.fandom.com/wiki/MegaRandom). 
 
 ## Features
 
