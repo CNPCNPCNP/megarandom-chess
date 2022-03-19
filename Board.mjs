@@ -19,4 +19,9 @@ export default class Board {
   getPieces() {
     return this.pieces;
   }
+
+  // Setter for pieces on the board
+  setPiece(row, column, pieceValue) {
+    this.pieces[row][column] = pieceValue;
+  }
 }
