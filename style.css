@@ -58,7 +58,10 @@ body {
 }
 
 #new_game, #settings {
-  margin: 30px;
+  font-size: 14pt;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 #new_game:hover, #settings:hover {
@@ -73,7 +76,44 @@ body {
 }
 
 #game_rules {
+  display: grid;
   background: whitesmoke;
+  justify-content: center;
+  padding: 5px;
+  width: 20%;
+  max-width: 20%;
+  max-height: 432px;
+  border: 1px;
+  border-style: solid;
+  border-color: darkgrey;
+  border-radius: 3px;
+}
+
+#game_board_container {
+  background: whitesmoke;
+  display: absolute;
+  width: 432px;
+  height: 432px;
+  min-width: 432px;
+  min-height: 432px;
+}
+
+#game_stats {
+  background: whitesmoke;
+  width: 20%;
+  max-width: 20%;
+  max-height: 20%;
+  display: block;
+  border: 1px;
+  border-style: solid;
+  border-color: darkgrey;
+  border-radius: 3px;
+}
+
+#game_moves {
+  display: grid;
+  padding: 5px;
+  grid-template-columns: 1fr 1fr;
 }
 
 
@@ -81,7 +121,7 @@ body {
   position: fixed;
   left: 50%;
   bottom: 20px;
-  transform: translate(-50%, 15%);
+  transform: translate(-50%, 36%);
   margin: 0 auto;
 }
 
@@ -93,6 +133,7 @@ body {
 }
 
 .footer_text {
+  font-size: 8pt;
   margin: 15px;
 }
 
