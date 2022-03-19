@@ -1,6 +1,6 @@
-import { Board } from './Board';
+import Board from './Board.mjs';
 
-class BoardDrawer {
+export default class BoardDrawer {
   constructor(board) {
     this.board = board;
     this.rows = this.board.getRows();

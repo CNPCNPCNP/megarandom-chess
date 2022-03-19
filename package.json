@@ -13,6 +13,7 @@
   "description": "Chess with randomized starting positions and randomized board configurations",
   "version": "1.0.0",
   "main": "jscript.js",
+  "type": "module",
   "dependencies": {
     "acorn": "^8.7.0",
     "acorn-import-assertions": "^1.8.0",

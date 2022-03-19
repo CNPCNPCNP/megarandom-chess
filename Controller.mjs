@@ -1,5 +1,5 @@
-import { Board } from './Board';
-import { BoardDrawer } from './BoardDrawer';
+import Board from './Board.mjs';
+import BoardDrawer from './BoardDrawer.mjs';
 
 class Controller {
   constructor() {
