@@ -1,7 +1,6 @@
 import Board from './Board.mjs';
-import BoardDrawer from './BoardDrawer.mjs';
 
-class Controller {
+export default class Controller {
   static get KING_VALUE() {
     return 10;
   }
@@ -193,8 +192,3 @@ class Controller {
     }
   }
 }
-
-const main = new Controller();
-const board = main.getBoard();
-main.createRandomBoard();
-console.log(board.getPieces());

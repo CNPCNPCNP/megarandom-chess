@@ -1,5 +1,3 @@
-import Board from './Board.mjs';
-
 export default class BoardDrawer {
   constructor(board) {
     this.board = board;
