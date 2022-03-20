@@ -1,4 +1,5 @@
 import Board from './Board.mjs';
+import BoardDrawer from './BoardDrawer.mjs';
 
 export default class Controller {
   static get KING_VALUE() {
@@ -9,11 +10,16 @@ export default class Controller {
     this.rows = Math.floor(Math.random() * 3 + 8);
     this.columns = this.rows;
     this.board = new Board(this.rows, this.columns);
+    this.boardDrawer = new BoardDrawer(this.board);
   }
 
   // Getter function for board
   getBoard() {
     return this.board;
+  }
+
+  getBoardDrawer() {
+    return this.boardDrawer;
   }
 
   // Print out board pieces
