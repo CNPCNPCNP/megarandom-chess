@@ -196,5 +196,11 @@ export default class Controller {
       this.board.setPiece(this.rows - 1, newPiecePosition1, newPiece1);
       this.board.setPiece(0, newPiecePosition1, -newPiece1);
     }
+
+    for (let j = 0; j < this.rows; j += 1) {
+      const pawn = Controller.createRandomPawn();
+      this.board.setPiece(this.rows - 2, j, pawn);
+      this.board.setPiece(1, j, -pawn);
+    }
   }
 }
